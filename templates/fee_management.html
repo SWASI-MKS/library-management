@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fee Management - Library Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="{{ url_for('index') }}">
+                <i class="fas fa-book-open me-2"></i>Library Management System
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('index') }}">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('books') }}">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('members') }}">Members</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('transactions') }}">Transactions</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{{ url_for('fee_management') }}">Fee Management</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="mb-4">Membership Fee Management</h1>
+        
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Member Fee Status</h5>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Member ID</th>
+                                    <th>Name</th>
+                                    <th>Annual Fee</th>
+                                    <th>Last Payment</th>
+                                    <th>Expiry Date</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for member in members %}
+                                <tr>
+                                    <td>{{ member.member_id }}</td>
+                                    <td>{{ member.name }}</td>
+                                    <td>${{ "%.2f"|format(member.annual_membership_fee) }}</td>
+                                    <td>{{ member.last_fee_payment_date.strftime('%Y-%m-%d') }}</td>
+                                    <td>{{ member.membership_expiry_date.strftime('%Y-%m-%d') }}</td>
+                                    <td>
+                                        {% if member.membership_expiry_date < now %}
+                                            <span class="badge bg-danger">Expired</span>
+                                        {% else %}
+                                            <span class="badge bg-success">Active</span>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm btn-primary" onclick="payFee('{{ member.member_id }}')">
+                                            Pay Fee
+                                        </button>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Fee Statistics</h5>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Total Members:</strong> {{ total_members }}</p>
+                        <p><strong>Active Members:</strong> {{ active_members }}</p>
+                        <p><strong>Expired Members:</strong> {{ expired_members }}</p>
+                        <p><strong>Total Annual Revenue:</strong> ${{ total_revenue }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment Modal -->
+    <div class="modal fade" id="paymentModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pay Membership Fee</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <form id="paymentForm" method="POST" action="{{ url_for('pay_membership_fee') }}">
+                    <div class="modal-body">
+                        <input type="hidden" id="member_id" name="member_id">
+                        <div class="mb-3">
+                            <label class="form-label">Member Name</label>
+                            <input type="text" class="form-control" id="member_name" readonly>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Annual Fee Amount</label>
+                            <input type="number" class="form-control" id="fee_amount" name="fee_amount" step="0.01" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Payment Date</label>
+                            <input type="date" class="form-control" name="payment_date" value="{{ today }}" required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Process Payment</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function payFee(memberId) {
+            // Find member data (you might need to pass this via template variables)
+            fetch(`/api/member/${memberId}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('member_id').value = memberId;
+                    document.getElementById('member_name').value = data.name;
+                    document.getElementById('fee_amount').value = data.annual_membership_fee;
+                    new bootstrap.Modal(document.getElementById('paymentModal')).show();
+                });
+        }
+    </script>
+</body>
+</html>

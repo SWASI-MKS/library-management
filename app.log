@@ -1,0 +1,671 @@
+2025-08-16 15:22:13,523 - WARNING -  * Debugger is active!
+2025-08-16 15:22:13,529 - WARNING -  * Debugger is active!
+2025-08-16 15:22:13,550 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:22:13,553 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:22:13,949 - WARNING -  * Debugger is active!
+2025-08-16 15:22:13,978 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:23:39,302 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 15:23:39,303 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 15:23:39,305 - INFO -  * Restarting with stat
+2025-08-16 15:23:40,603 - WARNING -  * Debugger is active!
+2025-08-16 15:23:40,643 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:24:00,957 - INFO - 127.0.0.1 - - [16/Aug/2025 15:24:00] "GET / HTTP/1.1" 200 -
+2025-08-16 15:24:01,669 - ERROR - 404 error: Page not found.
+2025-08-16 15:24:01,692 - INFO - 127.0.0.1 - - [16/Aug/2025 15:24:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 15:26:05,318 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 15:26:05,319 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 15:26:05,320 - INFO -  * Restarting with stat
+2025-08-16 15:26:06,155 - WARNING -  * Debugger is active!
+2025-08-16 15:26:06,166 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:26:29,960 - INFO - 127.0.0.1 - - [16/Aug/2025 15:26:29] "GET / HTTP/1.1" 200 -
+2025-08-16 15:26:30,876 - ERROR - 404 error: Page not found.
+2025-08-16 15:26:30,895 - INFO - 127.0.0.1 - - [16/Aug/2025 15:26:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 15:27:34,880 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:35,217 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:35,340 - INFO -  * Restarting with stat
+2025-08-16 15:27:35,459 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:35,516 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:35,612 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:35,628 - INFO -  * Restarting with stat
+2025-08-16 15:27:36,944 - WARNING -  * Debugger is active!
+2025-08-16 15:27:36,994 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:27:37,117 - WARNING -  * Debugger is active!
+2025-08-16 15:27:37,143 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:27:37,462 - WARNING -  * Debugger is active!
+2025-08-16 15:27:37,471 - WARNING -  * Debugger is active!
+2025-08-16 15:27:37,495 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:27:37,509 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:27:37,604 - WARNING -  * Debugger is active!
+2025-08-16 15:27:37,624 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:27:39,598 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:39,602 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:39,708 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:39,795 - INFO -  * Restarting with stat
+2025-08-16 15:27:40,155 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:40,242 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:40,382 - INFO -  * Restarting with stat
+2025-08-16 15:27:41,582 - WARNING -  * Debugger is active!
+2025-08-16 15:27:41,585 - WARNING -  * Debugger is active!
+2025-08-16 15:27:41,617 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:27:41,617 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:27:41,685 - WARNING -  * Debugger is active!
+2025-08-16 15:27:41,701 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:27:41,791 - WARNING -  * Debugger is active!
+2025-08-16 15:27:41,804 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:27:41,843 - WARNING -  * Debugger is active!
+2025-08-16 15:27:41,852 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:27:44,942 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:45,133 - INFO -  * Restarting with stat
+2025-08-16 15:27:45,697 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:45,699 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:45,773 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:27:45,840 - INFO -  * Restarting with stat
+2025-08-16 15:27:45,868 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 15:28:19,706 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 15:28:19,706 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 15:28:19,709 - INFO -  * Restarting with stat
+2025-08-16 15:28:21,211 - WARNING -  * Debugger is active!
+2025-08-16 15:28:21,237 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 15:28:41,977 - INFO - 127.0.0.1 - - [16/Aug/2025 15:28:41] "GET / HTTP/1.1" 200 -
+2025-08-16 15:28:42,942 - ERROR - 404 error: Page not found.
+2025-08-16 15:28:42,972 - INFO - 127.0.0.1 - - [16/Aug/2025 15:28:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 18:36:02,620 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 18:36:02,620 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 18:36:02,625 - INFO -  * Restarting with stat
+2025-08-16 18:36:04,356 - WARNING -  * Debugger is active!
+2025-08-16 18:36:04,378 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:36:28,741 - INFO - 127.0.0.1 - - [16/Aug/2025 18:36:28] "GET / HTTP/1.1" 200 -
+2025-08-16 18:36:29,795 - INFO - 127.0.0.1 - - [16/Aug/2025 18:36:29] "GET /static/favicon.ico HTTP/1.1" 200 -
+2025-08-16 18:41:09,971 - INFO - 127.0.0.1 - - [16/Aug/2025 18:41:09] "GET / HTTP/1.1" 200 -
+2025-08-16 18:41:10,447 - INFO - 127.0.0.1 - - [16/Aug/2025 18:41:10] "GET /static/favicon.ico HTTP/1.1" 200 -
+2025-08-16 18:44:41,788 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:44:41,815 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:44:41,926 - INFO -  * Restarting with stat
+2025-08-16 18:44:41,961 - INFO -  * Restarting with stat
+2025-08-16 18:45:26,931 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 18:45:26,931 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 18:45:26,934 - INFO -  * Restarting with stat
+2025-08-16 18:45:27,939 - WARNING -  * Debugger is active!
+2025-08-16 18:45:27,950 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:45:31,016 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:45:31,159 - INFO -  * Restarting with stat
+2025-08-16 18:45:32,005 - WARNING -  * Debugger is active!
+2025-08-16 18:45:32,014 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:45:57,163 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 18:45:57,163 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 18:45:57,165 - INFO -  * Restarting with stat
+2025-08-16 18:45:57,933 - WARNING -  * Debugger is active!
+2025-08-16 18:45:57,945 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:46:36,063 - INFO - 127.0.0.1 - - [16/Aug/2025 18:46:36] "GET / HTTP/1.1" 200 -
+2025-08-16 18:46:37,215 - INFO - 127.0.0.1 - - [16/Aug/2025 18:46:37] "GET /static/favicon.ico HTTP/1.1" 200 -
+2025-08-16 18:48:28,748 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:48:28,872 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:48:28,900 - INFO -  * Restarting with stat
+2025-08-16 18:48:29,074 - INFO -  * Restarting with stat
+2025-08-16 18:49:17,468 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 18:49:17,469 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 18:49:17,471 - INFO -  * Restarting with stat
+2025-08-16 18:49:18,724 - WARNING -  * Debugger is active!
+2025-08-16 18:49:18,738 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:49:33,146 - INFO - 127.0.0.1 - - [16/Aug/2025 18:49:33] "GET / HTTP/1.1" 200 -
+2025-08-16 18:49:34,246 - INFO - 127.0.0.1 - - [16/Aug/2025 18:49:34] "GET /static/favicon.ico HTTP/1.1" 200 -
+2025-08-16 18:50:06,653 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:50:06,756 - INFO -  * Restarting with stat
+2025-08-16 18:50:07,763 - WARNING -  * Debugger is active!
+2025-08-16 18:50:07,782 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:52:02,281 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:52:02,405 - INFO -  * Restarting with stat
+2025-08-16 18:52:03,282 - WARNING -  * Debugger is active!
+2025-08-16 18:52:03,297 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:52:31,776 - INFO -  * Detected change in 'C:\\swasi\\library management\\library_cli.py', reloading
+2025-08-16 18:52:31,909 - INFO -  * Restarting with stat
+2025-08-16 18:52:33,129 - WARNING -  * Debugger is active!
+2025-08-16 18:52:33,162 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:54:04,066 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 18:54:04,066 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 18:54:04,068 - INFO -  * Restarting with stat
+2025-08-16 18:54:04,927 - WARNING -  * Debugger is active!
+2025-08-16 18:54:04,948 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:55:28,615 - INFO - 127.0.0.1 - - [16/Aug/2025 18:55:28] "GET / HTTP/1.1" 200 -
+2025-08-16 18:56:26,038 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:56:26,225 - INFO -  * Restarting with stat
+2025-08-16 18:56:26,511 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:56:26,593 - INFO -  * Restarting with stat
+2025-08-16 18:56:27,163 - WARNING -  * Debugger is active!
+2025-08-16 18:56:27,178 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:56:27,363 - WARNING -  * Debugger is active!
+2025-08-16 18:56:27,375 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:56:28,413 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:56:28,513 - INFO -  * Restarting with stat
+2025-08-16 18:56:29,227 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:56:29,289 - INFO -  * Restarting with stat
+2025-08-16 18:56:29,478 - WARNING -  * Debugger is active!
+2025-08-16 18:56:29,491 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:56:30,343 - WARNING -  * Debugger is active!
+2025-08-16 18:56:30,354 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:57:09,993 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:57:10,150 - INFO -  * Restarting with stat
+2025-08-16 18:57:10,831 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:57:11,051 - INFO -  * Restarting with stat
+2025-08-16 18:58:02,951 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 18:58:02,951 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 18:58:02,954 - INFO -  * Restarting with stat
+2025-08-16 18:58:04,095 - WARNING -  * Debugger is active!
+2025-08-16 18:58:04,111 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 18:58:08,455 - INFO - 127.0.0.1 - - [16/Aug/2025 18:58:08] "GET / HTTP/1.1" 200 -
+2025-08-16 18:58:08,850 - INFO - 127.0.0.1 - - [16/Aug/2025 18:58:08] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-08-16 18:58:10,170 - INFO - 127.0.0.1 - - [16/Aug/2025 18:58:10] "GET / HTTP/1.1" 200 -
+2025-08-16 18:58:10,477 - INFO - 127.0.0.1 - - [16/Aug/2025 18:58:10] "GET / HTTP/1.1" 200 -
+2025-08-16 18:58:10,680 - INFO - 127.0.0.1 - - [16/Aug/2025 18:58:10] "GET /static/favicon.ico HTTP/1.1" 200 -
+2025-08-16 18:58:17,265 - INFO - 127.0.0.1 - - [16/Aug/2025 18:58:17] "GET / HTTP/1.1" 200 -
+2025-08-16 18:58:17,912 - INFO - 127.0.0.1 - - [16/Aug/2025 18:58:17] "GET /static/favicon.ico HTTP/1.1" 200 -
+2025-08-16 18:58:48,862 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 18:58:48,963 - INFO -  * Restarting with stat
+2025-08-16 19:09:58,385 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 19:09:58,385 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 19:09:58,387 - INFO -  * Restarting with stat
+2025-08-16 19:09:58,803 - WARNING -  * Debugger is active!
+2025-08-16 19:09:58,809 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 19:10:17,282 - INFO - 127.0.0.1 - - [16/Aug/2025 19:10:17] "GET / HTTP/1.1" 200 -
+2025-08-16 19:10:18,057 - INFO - 127.0.0.1 - - [16/Aug/2025 19:10:18] "GET /static/favicon.ico HTTP/1.1" 200 -
+2025-08-16 19:11:00,478 - INFO - 127.0.0.1 - - [16/Aug/2025 19:11:00] "GET / HTTP/1.1" 200 -
+2025-08-16 19:11:00,825 - INFO - 127.0.0.1 - - [16/Aug/2025 19:11:00] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-08-16 19:12:43,068 - INFO - 127.0.0.1 - - [16/Aug/2025 19:12:43] "GET / HTTP/1.1" 200 -
+2025-08-16 19:12:43,194 - INFO - 127.0.0.1 - - [16/Aug/2025 19:12:43] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-08-16 19:12:43,829 - INFO - 127.0.0.1 - - [16/Aug/2025 19:12:43] "GET / HTTP/1.1" 200 -
+2025-08-16 19:12:44,147 - INFO - 127.0.0.1 - - [16/Aug/2025 19:12:44] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2025-08-16 19:12:50,938 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 19:12:50,976 - INFO -  * Restarting with stat
+2025-08-16 19:15:10,619 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 19:15:10,619 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 19:15:10,622 - INFO -  * Restarting with stat
+2025-08-16 19:15:11,051 - WARNING -  * Debugger is active!
+2025-08-16 19:15:11,058 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 19:15:34,742 - INFO - 127.0.0.1 - - [16/Aug/2025 19:15:34] "GET / HTTP/1.1" 200 -
+2025-08-16 19:15:35,198 - ERROR - 404 error: Page not found.
+2025-08-16 19:15:35,232 - INFO - 127.0.0.1 - - [16/Aug/2025 19:15:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:15:43,611 - INFO - 127.0.0.1 - - [16/Aug/2025 19:15:43] "GET / HTTP/1.1" 200 -
+2025-08-16 19:15:43,760 - ERROR - 404 error: Page not found.
+2025-08-16 19:15:43,775 - INFO - 127.0.0.1 - - [16/Aug/2025 19:15:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:17:50,417 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 19:17:50,418 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 19:17:50,420 - INFO -  * Restarting with stat
+2025-08-16 19:17:50,889 - WARNING -  * Debugger is active!
+2025-08-16 19:17:50,896 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 19:18:06,471 - INFO - 127.0.0.1 - - [16/Aug/2025 19:18:06] "GET / HTTP/1.1" 200 -
+2025-08-16 19:18:07,057 - ERROR - 404 error: Page not found.
+2025-08-16 19:18:07,068 - INFO - 127.0.0.1 - - [16/Aug/2025 19:18:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:30:55,998 - INFO - 127.0.0.1 - - [16/Aug/2025 19:30:55] "GET / HTTP/1.1" 200 -
+2025-08-16 19:30:56,180 - ERROR - 404 error: Page not found.
+2025-08-16 19:30:56,193 - INFO - 127.0.0.1 - - [16/Aug/2025 19:30:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:31:00,368 - INFO - 127.0.0.1 - - [16/Aug/2025 19:31:00] "GET / HTTP/1.1" 200 -
+2025-08-16 19:31:00,686 - ERROR - 404 error: Page not found.
+2025-08-16 19:31:00,725 - INFO - 127.0.0.1 - - [16/Aug/2025 19:31:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:36:27,668 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:27] "GET / HTTP/1.1" 200 -
+2025-08-16 19:36:27,962 - ERROR - 404 error: Page not found.
+2025-08-16 19:36:27,980 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:36:40,079 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:40] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 19:36:40,387 - ERROR - 404 error: Page not found.
+2025-08-16 19:36:40,404 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:36:41,708 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:41] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 19:36:41,804 - ERROR - 404 error: Page not found.
+2025-08-16 19:36:41,817 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:36:42,545 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:42] "GET /members HTTP/1.1" 200 -
+2025-08-16 19:36:42,850 - ERROR - 404 error: Page not found.
+2025-08-16 19:36:42,889 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:36:46,126 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:46] "GET /books HTTP/1.1" 200 -
+2025-08-16 19:36:46,294 - ERROR - 404 error: Page not found.
+2025-08-16 19:36:46,313 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:36:46,562 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:46] "GET /books HTTP/1.1" 200 -
+2025-08-16 19:36:46,876 - ERROR - 404 error: Page not found.
+2025-08-16 19:36:46,885 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:36:48,867 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:48] "GET /search HTTP/1.1" 200 -
+2025-08-16 19:36:48,997 - ERROR - 404 error: Page not found.
+2025-08-16 19:36:49,016 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:36:51,242 - ERROR - 404 error: Page not found.
+2025-08-16 19:36:51,251 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:51] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:36:52,276 - ERROR - 404 error: Page not found.
+2025-08-16 19:36:52,297 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:36:55,951 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:55] "GET /members HTTP/1.1" 200 -
+2025-08-16 19:36:56,052 - ERROR - 404 error: Page not found.
+2025-08-16 19:36:56,072 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:36:56,658 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:56] "GET /members HTTP/1.1" 200 -
+2025-08-16 19:36:56,970 - ERROR - 404 error: Page not found.
+2025-08-16 19:36:57,000 - INFO - 127.0.0.1 - - [16/Aug/2025 19:36:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:37:07,242 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:07] "GET / HTTP/1.1" 200 -
+2025-08-16 19:37:07,667 - ERROR - 404 error: Page not found.
+2025-08-16 19:37:07,689 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:37:26,693 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:26] "GET /books HTTP/1.1" 200 -
+2025-08-16 19:37:27,014 - ERROR - 404 error: Page not found.
+2025-08-16 19:37:27,057 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:37:28,836 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:28] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 19:37:28,968 - ERROR - 404 error: Page not found.
+2025-08-16 19:37:28,985 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:37:30,211 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:30] "GET /search HTTP/1.1" 200 -
+2025-08-16 19:37:30,349 - ERROR - 404 error: Page not found.
+2025-08-16 19:37:30,367 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:37:35,194 - ERROR - 404 error: Page not found.
+2025-08-16 19:37:35,216 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:37:36,517 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:36] "GET / HTTP/1.1" 200 -
+2025-08-16 19:37:36,645 - ERROR - 404 error: Page not found.
+2025-08-16 19:37:36,659 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:37:42,309 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:42] "GET /add_book HTTP/1.1" 200 -
+2025-08-16 19:37:42,610 - ERROR - 404 error: Page not found.
+2025-08-16 19:37:42,618 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:37:47,492 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:47] "GET / HTTP/1.1" 200 -
+2025-08-16 19:37:47,588 - ERROR - 404 error: Page not found.
+2025-08-16 19:37:47,604 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:37:50,498 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:50] "GET /add_member HTTP/1.1" 200 -
+2025-08-16 19:37:50,802 - ERROR - 404 error: Page not found.
+2025-08-16 19:37:50,836 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:37:54,878 - ERROR - 404 error: Page not found.
+2025-08-16 19:37:54,888 - INFO - 127.0.0.1 - - [16/Aug/2025 19:37:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:38:00,205 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:00] "GET /add_member HTTP/1.1" 200 -
+2025-08-16 19:38:00,516 - ERROR - 404 error: Page not found.
+2025-08-16 19:38:00,524 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:38:04,995 - ERROR - 404 error: Page not found.
+2025-08-16 19:38:05,005 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:05] "[35m[1mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 500 -
+2025-08-16 19:38:24,432 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:24] "[32mPOST /add_member HTTP/1.1[0m" 302 -
+2025-08-16 19:38:24,738 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:24] "GET /members HTTP/1.1" 200 -
+2025-08-16 19:38:25,264 - ERROR - 404 error: Page not found.
+2025-08-16 19:38:25,294 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:25] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:38:35,075 - ERROR - 404 error: Page not found.
+2025-08-16 19:38:35,089 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:38:36,775 - ERROR - 404 error: Page not found.
+2025-08-16 19:38:36,790 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:38:38,246 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:38] "GET /borrow_book HTTP/1.1" 200 -
+2025-08-16 19:38:38,551 - ERROR - 404 error: Page not found.
+2025-08-16 19:38:38,561 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:38:45,868 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:45] "[32mPOST /borrow_book HTTP/1.1[0m" 302 -
+2025-08-16 19:38:45,872 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:45] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 19:38:46,117 - ERROR - 404 error: Page not found.
+2025-08-16 19:38:46,131 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:38:50,099 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:50] "GET /borrow_book HTTP/1.1" 200 -
+2025-08-16 19:38:50,184 - ERROR - 404 error: Page not found.
+2025-08-16 19:38:50,197 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:38:52,234 - ERROR - 404 error: Page not found.
+2025-08-16 19:38:52,273 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:38:54,014 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:54] "GET /search HTTP/1.1" 200 -
+2025-08-16 19:38:54,343 - ERROR - 404 error: Page not found.
+2025-08-16 19:38:54,358 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:38:55,896 - ERROR - 404 error: Page not found.
+2025-08-16 19:38:55,906 - INFO - 127.0.0.1 - - [16/Aug/2025 19:38:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:39:00,726 - INFO - 127.0.0.1 - - [16/Aug/2025 19:39:00] "GET / HTTP/1.1" 200 -
+2025-08-16 19:39:01,113 - ERROR - 404 error: Page not found.
+2025-08-16 19:39:01,133 - INFO - 127.0.0.1 - - [16/Aug/2025 19:39:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:39:04,214 - INFO - 127.0.0.1 - - [16/Aug/2025 19:39:04] "GET /add_member HTTP/1.1" 200 -
+2025-08-16 19:39:04,525 - ERROR - 404 error: Page not found.
+2025-08-16 19:39:04,537 - INFO - 127.0.0.1 - - [16/Aug/2025 19:39:04] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:39:06,364 - ERROR - 404 error: Page not found.
+2025-08-16 19:39:06,375 - INFO - 127.0.0.1 - - [16/Aug/2025 19:39:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:39:12,468 - INFO - 127.0.0.1 - - [16/Aug/2025 19:39:12] "GET /books HTTP/1.1" 200 -
+2025-08-16 19:39:12,783 - ERROR - 404 error: Page not found.
+2025-08-16 19:39:12,811 - INFO - 127.0.0.1 - - [16/Aug/2025 19:39:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:39:14,122 - INFO - 127.0.0.1 - - [16/Aug/2025 19:39:14] "GET /members HTTP/1.1" 200 -
+2025-08-16 19:39:14,254 - ERROR - 404 error: Page not found.
+2025-08-16 19:39:14,269 - INFO - 127.0.0.1 - - [16/Aug/2025 19:39:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:40:04,829 - INFO - 127.0.0.1 - - [16/Aug/2025 19:40:04] "GET / HTTP/1.1" 200 -
+2025-08-16 19:40:05,131 - ERROR - 404 error: Page not found.
+2025-08-16 19:40:05,143 - INFO - 127.0.0.1 - - [16/Aug/2025 19:40:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 19:48:52,822 - INFO -  * Detected change in 'C:\\swasi\\library management\\library_system_updated.py', reloading
+2025-08-16 19:48:52,970 - INFO -  * Restarting with stat
+2025-08-16 19:48:53,310 - INFO -  * Detected change in 'C:\\swasi\\library management\\library_system_updated.py', reloading
+2025-08-16 19:48:53,551 - INFO -  * Restarting with stat
+2025-08-16 19:48:53,604 - WARNING -  * Debugger is active!
+2025-08-16 19:48:53,612 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 19:48:53,946 - WARNING -  * Debugger is active!
+2025-08-16 19:48:53,951 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 19:49:26,847 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 19:49:26,907 - INFO -  * Restarting with stat
+2025-08-16 19:49:27,175 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 19:49:27,262 - INFO -  * Restarting with stat
+2025-08-16 19:49:27,394 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 19:49:27,438 - WARNING -  * Debugger is active!
+2025-08-16 19:49:27,452 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 19:49:27,717 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 19:49:27,739 - WARNING -  * Debugger is active!
+2025-08-16 19:49:27,745 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 19:53:15,034 - INFO - 127.0.0.1 - - [16/Aug/2025 19:53:15] "GET / HTTP/1.1" 200 -
+2025-08-16 19:53:15,313 - ERROR - 404 error: Page not found.
+2025-08-16 19:53:15,337 - INFO - 127.0.0.1 - - [16/Aug/2025 19:53:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:13:44,272 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 21:13:44,372 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 21:13:44,372 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 21:13:44,374 - INFO -  * Restarting with stat
+2025-08-16 21:13:45,178 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 21:13:45,238 - WARNING -  * Debugger is active!
+2025-08-16 21:13:45,256 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 21:13:50,356 - INFO - 127.0.0.1 - - [16/Aug/2025 21:13:50] "GET / HTTP/1.1" 200 -
+2025-08-16 21:13:51,151 - ERROR - 404 error: Page not found.
+2025-08-16 21:13:51,197 - INFO - 127.0.0.1 - - [16/Aug/2025 21:13:51] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:13:57,733 - INFO - 127.0.0.1 - - [16/Aug/2025 21:13:57] "GET /books HTTP/1.1" 200 -
+2025-08-16 21:13:58,014 - ERROR - 404 error: Page not found.
+2025-08-16 21:13:58,099 - INFO - 127.0.0.1 - - [16/Aug/2025 21:13:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:08,290 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:08] "GET / HTTP/1.1" 200 -
+2025-08-16 21:14:08,548 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:08,569 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:09,892 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:09] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:14:10,144 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:10,177 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:12,058 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:12] "GET / HTTP/1.1" 200 -
+2025-08-16 21:14:12,370 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:12,403 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:13,914 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:13] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:14:14,340 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:14,372 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:17,720 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:17] "GET / HTTP/1.1" 200 -
+2025-08-16 21:14:18,028 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:18,043 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:19,125 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:19] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:14:19,407 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:19,459 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:19] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:21,781 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:21] "GET / HTTP/1.1" 200 -
+2025-08-16 21:14:22,028 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:22,050 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:22] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:23,437 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:23] "GET /books HTTP/1.1" 200 -
+2025-08-16 21:14:23,748 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:23,785 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:26,176 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:26] "GET / HTTP/1.1" 200 -
+2025-08-16 21:14:26,481 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:26,507 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:31,658 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:31] "GET /add_member HTTP/1.1" 200 -
+2025-08-16 21:14:31,973 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:31,997 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:33,924 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:33,958 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:36,333 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:36] "GET /books HTTP/1.1" 200 -
+2025-08-16 21:14:36,535 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:36,574 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:40,835 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:40] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:14:41,145 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:41,163 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:14:46,104 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:46] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:14:46,328 - ERROR - 404 error: Page not found.
+2025-08-16 21:14:46,358 - INFO - 127.0.0.1 - - [16/Aug/2025 21:14:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:17:23,184 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 21:17:23,286 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 21:17:23,286 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 21:17:23,289 - INFO -  * Restarting with stat
+2025-08-16 21:17:23,945 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 21:17:23,996 - WARNING -  * Debugger is active!
+2025-08-16 21:17:24,020 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 21:25:12,495 - INFO - 127.0.0.1 - - [16/Aug/2025 21:25:12] "GET / HTTP/1.1" 200 -
+2025-08-16 21:25:12,942 - ERROR - 404 error: Page not found.
+2025-08-16 21:25:12,994 - INFO - 127.0.0.1 - - [16/Aug/2025 21:25:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:29:35,694 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 21:29:35,768 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 21:29:35,768 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 21:29:35,772 - INFO -  * Restarting with stat
+2025-08-16 21:29:36,999 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 21:29:37,026 - WARNING -  * Debugger is active!
+2025-08-16 21:29:37,035 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 21:29:41,569 - INFO - 127.0.0.1 - - [16/Aug/2025 21:29:41] "GET / HTTP/1.1" 200 -
+2025-08-16 21:29:42,120 - ERROR - 404 error: Page not found.
+2025-08-16 21:29:42,140 - INFO - 127.0.0.1 - - [16/Aug/2025 21:29:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:29:43,070 - INFO - 127.0.0.1 - - [16/Aug/2025 21:29:43] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:29:43,405 - ERROR - 404 error: Page not found.
+2025-08-16 21:29:43,431 - INFO - 127.0.0.1 - - [16/Aug/2025 21:29:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:29:45,676 - INFO - 127.0.0.1 - - [16/Aug/2025 21:29:45] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:29:45,955 - ERROR - 404 error: Page not found.
+2025-08-16 21:29:45,996 - INFO - 127.0.0.1 - - [16/Aug/2025 21:29:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:29:50,258 - INFO - 127.0.0.1 - - [16/Aug/2025 21:29:50] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:29:50,532 - ERROR - 404 error: Page not found.
+2025-08-16 21:29:50,567 - INFO - 127.0.0.1 - - [16/Aug/2025 21:29:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:35:06,730 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:06] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:35:06,965 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:06] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:35:07,124 - ERROR - 404 error: Page not found.
+2025-08-16 21:35:07,155 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:35:12,855 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:12] "GET / HTTP/1.1" 200 -
+2025-08-16 21:35:18,167 - ERROR - 404 error: Page not found.
+2025-08-16 21:35:18,210 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:35:19,554 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:19] "GET /books HTTP/1.1" 200 -
+2025-08-16 21:35:19,870 - ERROR - 404 error: Page not found.
+2025-08-16 21:35:19,904 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:19] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:35:23,907 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:23] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:35:24,270 - ERROR - 404 error: Page not found.
+2025-08-16 21:35:24,307 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:24] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:35:26,537 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:26] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:35:26,854 - ERROR - 404 error: Page not found.
+2025-08-16 21:35:26,878 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:35:29,197 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:29] "GET /books HTTP/1.1" 200 -
+2025-08-16 21:35:29,559 - ERROR - 404 error: Page not found.
+2025-08-16 21:35:29,588 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:35:31,707 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:31] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:35:32,023 - ERROR - 404 error: Page not found.
+2025-08-16 21:35:32,050 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:35:33,879 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:33] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:35:34,242 - ERROR - 404 error: Page not found.
+2025-08-16 21:35:34,278 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:35:35,233 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:35] "[35m[1mGET /search HTTP/1.1[0m" 500 -
+2025-08-16 21:35:35,775 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:35] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-16 21:35:35,815 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:35] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-16 21:35:36,208 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:36] "GET /search?__debugger__=yes&cmd=resource&f=console.png&s=qcfvyj6HNPYKtYFq9RZT HTTP/1.1" 200 -
+2025-08-16 21:35:36,466 - INFO - 127.0.0.1 - - [16/Aug/2025 21:35:36] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-16 21:37:47,770 - INFO - 127.0.0.1 - - [16/Aug/2025 21:37:47] "GET /search HTTP/1.1" 200 -
+2025-08-16 21:37:48,063 - ERROR - 404 error: Page not found.
+2025-08-16 21:37:48,089 - INFO - 127.0.0.1 - - [16/Aug/2025 21:37:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:37:51,608 - INFO - 127.0.0.1 - - [16/Aug/2025 21:37:51] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:37:51,970 - ERROR - 404 error: Page not found.
+2025-08-16 21:37:52,010 - INFO - 127.0.0.1 - - [16/Aug/2025 21:37:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:37:54,166 - INFO - 127.0.0.1 - - [16/Aug/2025 21:37:54] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:37:54,482 - ERROR - 404 error: Page not found.
+2025-08-16 21:37:54,512 - INFO - 127.0.0.1 - - [16/Aug/2025 21:37:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:39:28,740 - INFO - 127.0.0.1 - - [16/Aug/2025 21:39:28] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:39:29,039 - ERROR - 404 error: Page not found.
+2025-08-16 21:39:29,090 - INFO - 127.0.0.1 - - [16/Aug/2025 21:39:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:39:31,651 - INFO - 127.0.0.1 - - [16/Aug/2025 21:39:31] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:39:31,963 - ERROR - 404 error: Page not found.
+2025-08-16 21:39:32,009 - INFO - 127.0.0.1 - - [16/Aug/2025 21:39:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:39:33,071 - INFO - 127.0.0.1 - - [16/Aug/2025 21:39:33] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:39:33,426 - ERROR - 404 error: Page not found.
+2025-08-16 21:39:33,457 - INFO - 127.0.0.1 - - [16/Aug/2025 21:39:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:40:46,175 - INFO - 127.0.0.1 - - [16/Aug/2025 21:40:46] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:40:46,548 - ERROR - 404 error: Page not found.
+2025-08-16 21:40:46,580 - INFO - 127.0.0.1 - - [16/Aug/2025 21:40:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:40:47,667 - INFO - 127.0.0.1 - - [16/Aug/2025 21:40:47] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:40:47,980 - ERROR - 404 error: Page not found.
+2025-08-16 21:40:47,981 - INFO - 127.0.0.1 - - [16/Aug/2025 21:40:47] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:40:48,005 - INFO - 127.0.0.1 - - [16/Aug/2025 21:40:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:40:48,242 - ERROR - 404 error: Page not found.
+2025-08-16 21:40:48,260 - INFO - 127.0.0.1 - - [16/Aug/2025 21:40:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:40:49,429 - INFO - 127.0.0.1 - - [16/Aug/2025 21:40:49] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:40:49,770 - ERROR - 404 error: Page not found.
+2025-08-16 21:40:49,797 - INFO - 127.0.0.1 - - [16/Aug/2025 21:40:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:40:50,434 - INFO - 127.0.0.1 - - [16/Aug/2025 21:40:50] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:40:50,834 - ERROR - 404 error: Page not found.
+2025-08-16 21:40:50,863 - INFO - 127.0.0.1 - - [16/Aug/2025 21:40:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:42:12,822 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 21:42:12,950 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 21:42:12,976 - INFO -  * Restarting with stat
+2025-08-16 21:42:13,160 - INFO -  * Restarting with stat
+2025-08-16 21:42:13,494 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 21:42:13,585 - INFO -  * Restarting with stat
+2025-08-16 21:42:14,169 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 21:42:14,169 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 21:42:14,225 - WARNING -  * Debugger is active!
+2025-08-16 21:42:14,229 - WARNING -  * Debugger is active!
+2025-08-16 21:42:14,251 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 21:42:14,254 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 21:42:14,454 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 21:42:14,510 - WARNING -  * Debugger is active!
+2025-08-16 21:42:14,520 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 21:43:06,058 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 21:43:06,071 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 21:43:06,265 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 21:43:06,287 - INFO -  * Restarting with stat
+2025-08-16 21:43:06,288 - INFO -  * Restarting with stat
+2025-08-16 21:43:06,405 - INFO -  * Restarting with stat
+2025-08-16 21:43:48,709 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 21:43:48,771 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-16 21:43:48,771 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-16 21:43:48,772 - INFO -  * Restarting with stat
+2025-08-16 21:43:49,165 - ERROR - Error loading data: 'membership_expiry_date'
+2025-08-16 21:43:49,191 - WARNING -  * Debugger is active!
+2025-08-16 21:43:49,202 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 21:44:35,432 - INFO - Transactions loaded: 0
+2025-08-16 21:44:35,444 - INFO - 127.0.0.1 - - [16/Aug/2025 21:44:35] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:44:35,610 - ERROR - 404 error: Page not found.
+2025-08-16 21:44:35,641 - INFO - 127.0.0.1 - - [16/Aug/2025 21:44:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:44:38,661 - INFO - 127.0.0.1 - - [16/Aug/2025 21:44:38] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:44:38,976 - ERROR - 404 error: Page not found.
+2025-08-16 21:44:39,021 - INFO - 127.0.0.1 - - [16/Aug/2025 21:44:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:44:41,527 - INFO - Transactions loaded: 0
+2025-08-16 21:44:41,527 - INFO - 127.0.0.1 - - [16/Aug/2025 21:44:41] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:44:41,763 - ERROR - 404 error: Page not found.
+2025-08-16 21:44:41,795 - INFO - 127.0.0.1 - - [16/Aug/2025 21:44:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:45:36,159 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:36] "GET / HTTP/1.1" 200 -
+2025-08-16 21:45:36,472 - ERROR - 404 error: Page not found.
+2025-08-16 21:45:36,536 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:45:40,997 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:40] "GET /add_book HTTP/1.1" 200 -
+2025-08-16 21:45:41,269 - ERROR - 404 error: Page not found.
+2025-08-16 21:45:41,280 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:45:43,201 - ERROR - 404 error: Page not found.
+2025-08-16 21:45:43,239 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:45:44,593 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:44] "GET /add_member HTTP/1.1" 200 -
+2025-08-16 21:45:44,898 - ERROR - 404 error: Page not found.
+2025-08-16 21:45:44,909 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:45:47,564 - ERROR - 404 error: Page not found.
+2025-08-16 21:45:47,605 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:45:48,733 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:48] "GET /borrow_book HTTP/1.1" 200 -
+2025-08-16 21:45:49,030 - ERROR - 404 error: Page not found.
+2025-08-16 21:45:49,045 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:45:53,894 - ERROR - 404 error: Page not found.
+2025-08-16 21:45:53,906 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:45:56,551 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:56] "GET /search HTTP/1.1" 200 -
+2025-08-16 21:45:56,861 - ERROR - 404 error: Page not found.
+2025-08-16 21:45:56,872 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:45:59,321 - ERROR - 404 error: Page not found.
+2025-08-16 21:45:59,341 - INFO - 127.0.0.1 - - [16/Aug/2025 21:45:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:46:06,316 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:06] "GET /books HTTP/1.1" 200 -
+2025-08-16 21:46:06,625 - ERROR - 404 error: Page not found.
+2025-08-16 21:46:06,642 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:46:13,801 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:13] "GET /search HTTP/1.1" 200 -
+2025-08-16 21:46:14,054 - ERROR - 404 error: Page not found.
+2025-08-16 21:46:14,063 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:46:17,472 - ERROR - 404 error: Page not found.
+2025-08-16 21:46:17,502 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:46:20,655 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:20] "GET /borrow_book HTTP/1.1" 200 -
+2025-08-16 21:46:20,971 - ERROR - 404 error: Page not found.
+2025-08-16 21:46:21,003 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:46:23,084 - ERROR - 404 error: Page not found.
+2025-08-16 21:46:23,095 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:46:25,145 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:25] "GET /add_member HTTP/1.1" 200 -
+2025-08-16 21:46:25,467 - ERROR - 404 error: Page not found.
+2025-08-16 21:46:25,482 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:25] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:46:26,871 - ERROR - 404 error: Page not found.
+2025-08-16 21:46:26,905 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:46:29,287 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:29] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:46:29,607 - ERROR - 404 error: Page not found.
+2025-08-16 21:46:29,633 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:46:32,620 - ERROR - 404 error: Page not found.
+2025-08-16 21:46:32,646 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:46:34,988 - INFO - Transactions loaded: 0
+2025-08-16 21:46:34,989 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:34] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:46:35,291 - ERROR - 404 error: Page not found.
+2025-08-16 21:46:35,301 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:46:37,111 - ERROR - 404 error: Page not found.
+2025-08-16 21:46:37,126 - INFO - 127.0.0.1 - - [16/Aug/2025 21:46:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:52:06,645 - INFO - 127.0.0.1 - - [16/Aug/2025 21:52:06] "GET /books HTTP/1.1" 200 -
+2025-08-16 21:52:06,808 - ERROR - 404 error: Page not found.
+2025-08-16 21:52:06,821 - INFO - 127.0.0.1 - - [16/Aug/2025 21:52:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:52:09,717 - INFO - 127.0.0.1 - - [16/Aug/2025 21:52:09] "GET /books HTTP/1.1" 200 -
+2025-08-16 21:52:10,031 - ERROR - 404 error: Page not found.
+2025-08-16 21:52:10,079 - INFO - 127.0.0.1 - - [16/Aug/2025 21:52:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:52:10,853 - INFO - 127.0.0.1 - - [16/Aug/2025 21:52:10] "GET /books HTTP/1.1" 200 -
+2025-08-16 21:52:10,935 - ERROR - 404 error: Page not found.
+2025-08-16 21:52:10,950 - INFO - 127.0.0.1 - - [16/Aug/2025 21:52:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:52:11,677 - INFO - Transactions loaded: 0
+2025-08-16 21:52:11,677 - INFO - 127.0.0.1 - - [16/Aug/2025 21:52:11] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 21:52:11,993 - ERROR - 404 error: Page not found.
+2025-08-16 21:52:12,002 - INFO - 127.0.0.1 - - [16/Aug/2025 21:52:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 21:52:13,057 - INFO - 127.0.0.1 - - [16/Aug/2025 21:52:13] "GET /members HTTP/1.1" 200 -
+2025-08-16 21:52:13,219 - ERROR - 404 error: Page not found.
+2025-08-16 21:52:13,239 - INFO - 127.0.0.1 - - [16/Aug/2025 21:52:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 22:00:33,061 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:33] "GET /members HTTP/1.1" 200 -
+2025-08-16 22:00:33,233 - ERROR - 404 error: Page not found.
+2025-08-16 22:00:33,248 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 22:00:34,570 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:34] "GET /members HTTP/1.1" 200 -
+2025-08-16 22:00:34,881 - ERROR - 404 error: Page not found.
+2025-08-16 22:00:34,901 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 22:00:35,739 - INFO - Transactions loaded: 0
+2025-08-16 22:00:35,742 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:35] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 22:00:36,057 - ERROR - 404 error: Page not found.
+2025-08-16 22:00:36,074 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 22:00:38,300 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:38] "GET /members HTTP/1.1" 200 -
+2025-08-16 22:00:38,628 - ERROR - 404 error: Page not found.
+2025-08-16 22:00:38,639 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 22:00:39,273 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-16 22:00:39,375 - INFO -  * Restarting with stat
+2025-08-16 22:00:40,031 - WARNING -  * Debugger is active!
+2025-08-16 22:00:40,040 - INFO -  * Debugger PIN: 143-225-333
+2025-08-16 22:00:50,960 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:50] "GET /members HTTP/1.1" 200 -
+2025-08-16 22:00:51,076 - ERROR - 404 error: Page not found.
+2025-08-16 22:00:51,115 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:51] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 22:00:56,621 - INFO - Transactions loaded: 7
+2025-08-16 22:00:56,621 - INFO - Transaction ID: f65990c2, Member ID: 3, Book ID: 2
+2025-08-16 22:00:56,622 - INFO - Transaction ID: a1b2c3d4, Member ID: 7, Book ID: 1
+2025-08-16 22:00:56,622 - INFO - Transaction ID: e5f6g7h8, Member ID: 8, Book ID: 3
+2025-08-16 22:00:56,622 - INFO - Transaction ID: i9j0k1l2, Member ID: 9, Book ID: 4
+2025-08-16 22:00:56,622 - INFO - Transaction ID: m3n4o5p6, Member ID: 10, Book ID: 5
+2025-08-16 22:00:56,622 - INFO - Transaction ID: q7r8s9t0, Member ID: 11, Book ID: 6
+2025-08-16 22:00:56,622 - INFO - Transaction ID: u1v2w3x4, Member ID: 12, Book ID: 2
+2025-08-16 22:00:56,636 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:56] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 22:00:56,934 - ERROR - 404 error: Page not found.
+2025-08-16 22:00:56,947 - INFO - 127.0.0.1 - - [16/Aug/2025 22:00:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 22:01:02,026 - ERROR - 404 error: Page not found.
+2025-08-16 22:01:02,034 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:02] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 22:01:04,700 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:04] "GET /add_member HTTP/1.1" 200 -
+2025-08-16 22:01:05,013 - ERROR - 404 error: Page not found.
+2025-08-16 22:01:05,046 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-16 22:01:30,756 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:30] "[32mPOST /add_member HTTP/1.1[0m" 302 -
+2025-08-16 22:01:30,762 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:30] "GET /members HTTP/1.1" 200 -
+2025-08-16 22:01:31,006 - ERROR - 404 error: Page not found.
+2025-08-16 22:01:31,008 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-16 22:01:40,026 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:40] "GET / HTTP/1.1" 200 -
+2025-08-16 22:01:42,536 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:42] "GET /members HTTP/1.1" 200 -
+2025-08-16 22:01:45,819 - INFO - Transactions loaded: 7
+2025-08-16 22:01:45,819 - INFO - Transaction ID: f65990c2, Member ID: 3, Book ID: 2
+2025-08-16 22:01:45,819 - INFO - Transaction ID: a1b2c3d4, Member ID: 7, Book ID: 1
+2025-08-16 22:01:45,819 - INFO - Transaction ID: e5f6g7h8, Member ID: 8, Book ID: 3
+2025-08-16 22:01:45,819 - INFO - Transaction ID: i9j0k1l2, Member ID: 9, Book ID: 4
+2025-08-16 22:01:45,819 - INFO - Transaction ID: m3n4o5p6, Member ID: 10, Book ID: 5
+2025-08-16 22:01:45,819 - INFO - Transaction ID: q7r8s9t0, Member ID: 11, Book ID: 6
+2025-08-16 22:01:45,819 - INFO - Transaction ID: u1v2w3x4, Member ID: 12, Book ID: 2
+2025-08-16 22:01:45,820 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:45] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 22:01:47,646 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:47] "GET /search HTTP/1.1" 200 -
+2025-08-16 22:01:51,248 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:51] "GET /books HTTP/1.1" 200 -
+2025-08-16 22:01:52,333 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:52] "GET /add_book HTTP/1.1" 200 -
+2025-08-16 22:01:53,003 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:53] "GET / HTTP/1.1" 200 -
+2025-08-16 22:01:58,748 - INFO - 127.0.0.1 - - [16/Aug/2025 22:01:58] "GET /add_book HTTP/1.1" 200 -
+2025-08-16 22:02:01,118 - INFO - 127.0.0.1 - - [16/Aug/2025 22:02:01] "GET /add_member HTTP/1.1" 200 -
+2025-08-16 22:02:03,375 - INFO - 127.0.0.1 - - [16/Aug/2025 22:02:03] "GET /borrow_book HTTP/1.1" 200 -
+2025-08-16 22:02:06,381 - INFO - 127.0.0.1 - - [16/Aug/2025 22:02:06] "GET /search HTTP/1.1" 200 -
+2025-08-16 22:04:01,527 - INFO - 127.0.0.1 - - [16/Aug/2025 22:04:01] "GET / HTTP/1.1" 200 -
+2025-08-16 22:04:02,962 - INFO - 127.0.0.1 - - [16/Aug/2025 22:04:02] "GET /books HTTP/1.1" 200 -
+2025-08-16 22:04:05,377 - INFO - 127.0.0.1 - - [16/Aug/2025 22:04:05] "GET /members HTTP/1.1" 200 -
+2025-08-16 22:04:07,613 - INFO - Transactions loaded: 7
+2025-08-16 22:04:07,613 - INFO - Transaction ID: f65990c2, Member ID: 3, Book ID: 2
+2025-08-16 22:04:07,614 - INFO - Transaction ID: a1b2c3d4, Member ID: 7, Book ID: 1
+2025-08-16 22:04:07,614 - INFO - Transaction ID: e5f6g7h8, Member ID: 8, Book ID: 3
+2025-08-16 22:04:07,614 - INFO - Transaction ID: i9j0k1l2, Member ID: 9, Book ID: 4
+2025-08-16 22:04:07,614 - INFO - Transaction ID: m3n4o5p6, Member ID: 10, Book ID: 5
+2025-08-16 22:04:07,614 - INFO - Transaction ID: q7r8s9t0, Member ID: 11, Book ID: 6
+2025-08-16 22:04:07,614 - INFO - Transaction ID: u1v2w3x4, Member ID: 12, Book ID: 2
+2025-08-16 22:04:07,616 - INFO - 127.0.0.1 - - [16/Aug/2025 22:04:07] "GET /transactions HTTP/1.1" 200 -
+2025-08-16 22:04:10,000 - INFO - 127.0.0.1 - - [16/Aug/2025 22:04:10] "GET /members HTTP/1.1" 200 -

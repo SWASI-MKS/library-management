@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}Search - Library Management{% endblock %}
+
+{% block content %}
+<!-- Search Section -->
+<section class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h1 class="section-title">Search Books</h1>
+                <form method="POST" action="/search" class="mb-4">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search by title, author, genre, or ISBN" name="query" required>
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </div>
+                </form>
+                
+                {% if query %}
+                <div class="search-results">
+                    <h3>Search Results for "{{ query }}"</h3>
+                    {% if books %}
+                        <div class="row">
+                            {% for book in books %}
+                            <div class="col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{ book.title }}</h5>
+                                        <p class="card-text">
+                                            <strong>Author:</strong> {{ book.author }}<br>
+                                            <strong>Genre:</strong> {{ book.genre }}<br>
+                                            <strong>ISBN:</strong> {{ book.isbn }}<br>
+                                            <strong>Available:</strong> {{ book.available_copies }}/{{ book.total_copies }}
+                                        </p>
+                                        {% if book.is_available %}
+                                            <a href="/borrow/{{ book.book_id }}" class="btn btn-success">Borrow</a>
+                                        {% else %}
+                                            <button class="btn btn-secondary" disabled>Not Available</button>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        <div class="alert alert-info">
+                            No books found matching your search criteria.
+                        </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

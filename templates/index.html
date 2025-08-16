@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a1a2e;
+            --secondary-color: #16213e;
+            --accent-color: #0f3460;
+            --highlight-color: #e94560;
+            --text-light: #f5f5f5;
+            --text-dark: #333;
+            --gradient-primary: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            --gradient-secondary: linear-gradient(135deg, #0f3460 0%, #16213e 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+
+        /* Hero Section - Full Screen Library Image */
+        .hero-section {
+            height: 100vh;
+            width: 100%;
+            background: linear-gradient(rgba(26, 26, 46, 0.7), rgba(22, 33, 62, 0.7)),
+                        url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--text-light);
+            position: relative;
+        }
+
+        .hero-content {
+            z-index: 2;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .hero-btn {
+            background: var(--highlight-color);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .hero-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(233, 69, 96, 0.4);
+            color: white;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: var(--gradient-primary);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--text-light) !important;
+        }
+
+        .nav-link {
+            color: var(--text-light) !important;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--highlight-color) !important;
+        }
+
+        /* Content Sections */
+        .content-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary-color);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .stat-card-modern {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card-modern:hover {
+            transform: translateY(-10px);
+        }
+
+        .stat-icon-modern {
+            font-size: 3rem;
+            color: var(--highlight-color);
+            margin-bottom: 1rem;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        /* Action Cards */
+        .action-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .action-card-modern {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .action-card-modern:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .action-card-header {
+            background: var(--gradient-secondary);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .action-card-body {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .action-btn {
+            background: var(--highlight-color);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .action-btn:hover {
+            background: #d63384;
+            transform: translateY(-2px);
+            color: white;
+        }
+
+        /* Scroll down indicator */
+        .scroll-down {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 2rem;
+            animation: bounce 2s infinite;
+            cursor: pointer;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateX(-50%) translateY(0);
+            }
+            40% {
+                transform: translateX(-50%) translateY(-10px);
+            }
+            60% {
+                transform: translateX(-50%) translateY(-5px);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.5rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-book-open me-2"></i>
+                Library Management System
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stats">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#actions">Actions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/books">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/members">Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/transactions">Transactions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Full Screen Library Image Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Your Digital Library</h1>
+            <p class="hero-subtitle">Discover, manage, and explore books with our comprehensive library management system</p>
+            <a href="#stats" class="hero-btn">Explore Dashboard</a>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Content Below the Image -->
+    <section id="stats" class="content-section">
+        <div class="container">
+            <h2 class="section-title">Library Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card-modern">
+                    <i class="fas fa-book stat-icon-modern"></i>
+                    <div class="stat-number">{{ stats.total_books }}</div>
+                    <div class="stat-label">Total Books</div>
+                </div>
+                <div class="stat-card-modern">
+                    <i class="fas fa-users stat-icon-modern"></i>
+                    <div class="stat-number">{{ stats.total_members }}</div>
+                    <div class="stat-label">Active Members</div>
+                </div>
+                <div class="stat-card-modern">
+                    <i class="fas fa-exchange-alt stat-icon-modern"></i>
+                    <div class="stat-number">{{ stats.total_transactions }}</div>
+                    <div class="stat-label">Transactions</div>
+                </div>
+                <div class="stat-card-modern">
+                    <i class="fas fa-book-open stat-icon-modern"></i>
+                    <div class="stat-number">{{ stats.available_books }}</div>
+                    <div class="stat-label">Available Books</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Actions Section -->
+    <section id="actions" class="content-section" style="background: #f8f9fa;">
+        <div class="container">
+            <h2 class="section-title">Quick Actions</h2>
+            <div class="action-grid">
+                <div class="action-card-modern">
+                    <div class="action-card-header">
+                        <h4><i class="fas fa-plus me-2"></i>Add New Book</h4>
+                    </div>
+                    <div class="action-card-body">
+                        <p>Add new books to your library collection with complete details.</p>
+                        <a href="/add_book" class="action-btn">Add Book</a>
+                    </div>
+                </div>
+                
+                <div class="action-card-modern">
+                    <div class="action-card-header">
+                        <h4><i class="fas fa-user-plus me-2"></i>Add Member</h4>
+                    </div>
+                    <div class="action-card-body">
+                        <p>Register new members to access library services and borrow books.</p>
+                        <a href="/add_member" class="action-btn">Add Member</a>
+                    </div>
+                </div>
+                
+                <div class="action-card-modern">
+                    <div class="action-card-header">
+                        <h4><i class="fas fa-hand-holding me-2"></i>Borrow Book</h4>
+                    </div>
+                    <div class="action-card-body">
+                        <p>Process book borrowing transactions for registered members.</p>
+                        <a href="/borrow_book" class="action-btn">Borrow Book</a>
+                    </div>
+                </div>
+                
+                <div class="action-card-modern">
+                    <div class="action-card-header">
+                        <h4><i class="fas fa-search me-2"></i>Search Books</h4>
+                    </div>
+                    <div class="action-card-body">
+                        <p>Find books by title, author, genre, or ISBN in the library.</p>
+                        <a href="/search" class="action-btn">Search Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Library Management System. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Scroll down functionality
+        document.querySelector('.scroll-down').addEventListener('click', function() {
+            document.getElementById('stats').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}Borrow Book - Library Management{% endblock %}
+
+{% block content %}
+<!-- Borrow Book Section -->
+<section class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 class="mb-0"><i class="fas fa-hand-holding me-2"></i>Borrow Book</h1>
+                    </div>
+                    <div class="card-body">
+                        <form method="POST" action="/borrow_book">
+                            <div class="mb-3">
+                                <label for="member_id" class="form-label">Member</label>
+                                <select class="form-select" id="member_id" name="member_id" required>
+                                    <option value="">Select a member</option>
+                                    {% for member in members %}
+                                    <option value="{{ member.member_id }}">{{ member.name }} ({{ member.email }})</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="book_id" class="form-label">Book</label>
+                                <select class="form-select" id="book_id" name="book_id" required>
+                                    <option value="">Select a book</option>
+                                    {% for book in books %}
+                                    {% if book.is_available and book.available_copies > 0 %}
+                                    <option value="{{ book.book_id }}">{{ book.title }} by {{ book.author }} ({{ book.available_copies }} available)</option>
+                                    {% endif %}
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="due_date" class="form-label">Due Date</label>
+                                <input type="date" class="form-control" id="due_date" name="due_date" required>
+                            </div>
+                            
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <a href="/transactions" class="btn btn-secondary me-2">Cancel</a>
+                                <button type="submit" class="btn btn-primary">Borrow Book</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Set default due date to 14 days from now
+    document.addEventListener('DOMContentLoaded', function() {
+        const dueDateInput = document.getElementById('due_date');
+        const today = new Date();
+        const dueDate = new Date(today);
+        dueDate.setDate(today.getDate() + 14);
+        dueDateInput.value = dueDate.toISOString().split('T')[0];
+    });
+</script>
+{% endblock %}

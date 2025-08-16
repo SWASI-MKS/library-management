@@ -1,0 +1,289 @@
+{
+  "books": {
+    "1": {
+      "book_id": "1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "9780743273565",
+      "genre": "Fiction",
+      "total_copies": 5,
+      "available_copies": 5,
+      "is_available": true
+    },
+    "2": {
+      "book_id": "2",
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "9780451524935",
+      "genre": "Dystopian",
+      "total_copies": 3,
+      "available_copies": 2,
+      "is_available": true
+    },
+    "3": {
+      "book_id": "3",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "9780061120084",
+      "genre": "Fiction",
+      "total_copies": 4,
+      "available_copies": 4,
+      "is_available": true
+    },
+    "4": {
+      "book_id": "4",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isbn": "9781503290563",
+      "genre": "Romance",
+      "total_copies": 6,
+      "available_copies": 6,
+      "is_available": true
+    },
+    "5": {
+      "book_id": "5",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isbn": "9780316769488",
+      "genre": "Fiction",
+      "total_copies": 4,
+      "available_copies": 4,
+      "is_available": true
+    },
+    "6": {
+      "book_id": "6",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isbn": "9780547928227",
+      "genre": "Fantasy",
+      "total_copies": 5,
+      "available_copies": 5,
+      "is_available": true
+    }
+  },
+  "members": {
+    "1": {
+      "member_id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "123-456-7890",
+      "borrowed_books": [],
+      "membership_date": "2024-01-01T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-01-01T00:00:00",
+      "last_fee_payment_date": "2024-01-01T00:00:00"
+    },
+    "2": {
+      "member_id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "987-654-3210",
+      "borrowed_books": [],
+      "membership_date": "2024-01-01T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-01-01T00:00:00",
+      "last_fee_payment_date": "2024-01-01T00:00:00"
+    },
+    "3": {
+      "member_id": "3",
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "phone": "555-555-5555",
+      "borrowed_books": [
+        "f65990c2"
+      ],
+      "membership_date": "2024-01-01T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-01-01T00:00:00",
+      "last_fee_payment_date": "2024-01-01T00:00:00"
+    },
+    "4": {
+      "member_id": "4",
+      "name": "Bob Brown",
+      "email": "bob@example.com",
+      "phone": "111-222-3333",
+      "borrowed_books": [],
+      "membership_date": "2024-01-01T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-01-01T00:00:00",
+      "last_fee_payment_date": "2024-01-01T00:00:00"
+    },
+    "5": {
+      "member_id": "5",
+      "name": "Charlie Green",
+      "email": "charlie@example.com",
+      "phone": "444-555-6666",
+      "borrowed_books": [],
+      "membership_date": "2024-01-01T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-01-01T00:00:00",
+      "last_fee_payment_date": "2024-01-01T00:00:00"
+    },
+    "6": {
+      "member_id": "6",
+      "name": "Diana Prince",
+      "email": "diana@example.com",
+      "phone": "777-888-9999",
+      "borrowed_books": [],
+      "membership_date": "2024-01-01T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-01-01T00:00:00",
+      "last_fee_payment_date": "2024-01-01T00:00:00"
+    },
+    "7": {
+      "member_id": "7",
+      "name": "Rajesh Kumar Sharma",
+      "email": "rajesh.sharma@email.com",
+      "phone": "9876543210",
+      "borrowed_books": [],
+      "membership_date": "2024-01-15T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-01-15T00:00:00",
+      "last_fee_payment_date": "2024-01-15T00:00:00"
+    },
+    "8": {
+      "member_id": "8",
+      "name": "Priya Patel",
+      "email": "priya.patel@email.com",
+      "phone": "9123456789",
+      "borrowed_books": [],
+      "membership_date": "2024-02-01T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-02-01T00:00:00",
+      "last_fee_payment_date": "2024-02-01T00:00:00"
+    },
+    "9": {
+      "member_id": "9",
+      "name": "Vikram Singh",
+      "email": "vikram.singh@email.com",
+      "phone": "9988776655",
+      "borrowed_books": [],
+      "membership_date": "2024-02-15T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-02-15T00:00:00",
+      "last_fee_payment_date": "2024-02-15T00:00:00"
+    },
+    "10": {
+      "member_id": "10",
+      "name": "Anjali Mehta",
+      "email": "anjali.mehta@email.com",
+      "phone": "9871234567",
+      "borrowed_books": [],
+      "membership_date": "2024-03-01T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-03-01T00:00:00",
+      "last_fee_payment_date": "2024-03-01T00:00:00"
+    },
+    "11": {
+      "member_id": "11",
+      "name": "Arjun Reddy",
+      "email": "arjun.reddy@email.com",
+      "phone": "9123456789",
+      "borrowed_books": [],
+      "membership_date": "2024-03-15T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-03-15T00:00:00",
+      "last_fee_payment_date": "2024-03-15T00:00:00"
+    },
+    "12": {
+      "member_id": "12",
+      "name": "Neha Gupta",
+      "email": "neha.gupta@email.com",
+      "phone": "9876543210",
+      "borrowed_books": [],
+      "membership_date": "2024-04-01T00:00:00",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2025-04-01T00:00:00",
+      "last_fee_payment_date": "2024-04-01T00:00:00"
+    },
+    "78fa96ea": {
+      "member_id": "78fa96ea",
+      "name": "Swasi ",
+      "email": "mksswasi2007@gmail.com",
+      "phone": "9150123238",
+      "borrowed_books": [],
+      "membership_date": "2025-08-16T22:01:30.754107",
+      "is_active": true,
+      "annual_membership_fee": 50.0,
+      "membership_expiry_date": "2026-08-16T22:01:30.754109",
+      "last_fee_payment_date": "2025-08-16T22:01:30.754114"
+    }
+  },
+  "transactions": {
+    "f65990c2": {
+      "transaction_id": "f65990c2",
+      "member_id": "3",
+      "book_id": "2",
+      "borrow_date": "2025-08-16T19:38:45.867385",
+      "due_date": "2025-08-30T19:38:45.867385",
+      "return_date": null,
+      "fine": 0.0
+    },
+    "a1b2c3d4": {
+      "transaction_id": "a1b2c3d4",
+      "member_id": "7",
+      "book_id": "1",
+      "borrow_date": "2024-01-20T10:00:00",
+      "due_date": "2024-02-03T10:00:00",
+      "return_date": "2024-01-28T15:30:00",
+      "fine": 0.0
+    },
+    "e5f6g7h8": {
+      "transaction_id": "e5f6g7h8",
+      "member_id": "8",
+      "book_id": "3",
+      "borrow_date": "2024-02-05T14:00:00",
+      "due_date": "2024-02-19T14:00:00",
+      "return_date": "2024-02-15T11:00:00",
+      "fine": 0.0
+    },
+    "i9j0k1l2": {
+      "transaction_id": "i9j0k1l2",
+      "member_id": "9",
+      "book_id": "4",
+      "borrow_date": "2024-02-20T09:30:00",
+      "due_date": "2024-03-05T09:30:00",
+      "return_date": null,
+      "fine": 0.0
+    },
+    "m3n4o5p6": {
+      "transaction_id": "m3n4o5p6",
+      "member_id": "10",
+      "book_id": "5",
+      "borrow_date": "2024-03-10T16:00:00",
+      "due_date": "2024-03-24T16:00:00",
+      "return_date": "2024-03-20T10:00:00",
+      "fine": 0.0
+    },
+    "q7r8s9t0": {
+      "transaction_id": "q7r8s9t0",
+      "member_id": "11",
+      "book_id": "6",
+      "borrow_date": "2024-03-25T11:00:00",
+      "due_date": "2024-04-08T11:00:00",
+      "return_date": null,
+      "fine": 0.0
+    },
+    "u1v2w3x4": {
+      "transaction_id": "u1v2w3x4",
+      "member_id": "12",
+      "book_id": "2",
+      "borrow_date": "2024-04-05T13:00:00",
+      "due_date": "2024-04-19T13:00:00",
+      "return_date": "2024-04-15T16:00:00",
+      "fine": 0.0
+    }
+  }
+}

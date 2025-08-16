@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Books - Library Management{% endblock %}
+
+{% block content %}
+<!-- Books Section -->
+<section class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="section-title">Books</h1>
+                <a href="/add_book" class="btn btn-primary mb-3"><i class="fas fa-plus me-2"></i>Add New Book</a>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for book in books %}
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>{{ book.title }}</h5>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Author:</strong> {{ book.author }}</p>
+                        <p><strong>ISBN:</strong> {{ book.isbn }}</p>
+                        <p><strong>Genre:</strong> {{ book.genre }}</p>
+                        <p><strong>Total Copies:</strong> {{ book.total_copies }}</p>
+                        <p><strong>Available:</strong> {{ book.available_copies }}</p>
+                        <p>
+                            <span class="badge {% if book.is_available %}bg-success{% else %}bg-danger{% endif %}">
+                                {% if book.is_available %}Available{% else %}Not Available{% endif %}
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
