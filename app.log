@@ -669,3 +669,126 @@
 2025-08-16 22:04:07,614 - INFO - Transaction ID: u1v2w3x4, Member ID: 12, Book ID: 2
 2025-08-16 22:04:07,616 - INFO - 127.0.0.1 - - [16/Aug/2025 22:04:07] "GET /transactions HTTP/1.1" 200 -
 2025-08-16 22:04:10,000 - INFO - 127.0.0.1 - - [16/Aug/2025 22:04:10] "GET /members HTTP/1.1" 200 -
+2025-08-23 23:19:00,569 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 23:19:00,569 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 23:19:00,574 - INFO -  * Restarting with stat
+2025-08-23 23:19:01,569 - WARNING -  * Debugger is active!
+2025-08-23 23:19:01,588 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:21:29,401 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 23:21:29,401 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 23:21:29,405 - INFO -  * Restarting with stat
+2025-08-23 23:21:30,494 - WARNING -  * Debugger is active!
+2025-08-23 23:21:30,525 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:21:46,670 - INFO - 127.0.0.1 - - [23/Aug/2025 23:21:46] "GET / HTTP/1.1" 200 -
+2025-08-23 23:21:47,365 - ERROR - 404 error: Page not found.
+2025-08-23 23:21:47,419 - INFO - 127.0.0.1 - - [23/Aug/2025 23:21:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-23 23:23:05,090 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-23 23:23:05,107 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-23 23:23:05,256 - INFO -  * Restarting with stat
+2025-08-23 23:23:05,257 - INFO -  * Restarting with stat
+2025-08-23 23:24:30,753 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 23:24:30,753 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 23:24:30,756 - INFO -  * Restarting with stat
+2025-08-23 23:24:31,386 - WARNING -  * Debugger is active!
+2025-08-23 23:24:31,396 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:24:59,333 - INFO - 127.0.0.1 - - [23/Aug/2025 23:24:59] "GET / HTTP/1.1" 200 -
+2025-08-23 23:24:59,906 - ERROR - 404 error: Page not found.
+2025-08-23 23:24:59,959 - INFO - 127.0.0.1 - - [23/Aug/2025 23:24:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-23 23:28:23,225 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 23:28:23,225 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 23:28:23,228 - INFO -  * Restarting with stat
+2025-08-23 23:28:24,364 - WARNING -  * Debugger is active!
+2025-08-23 23:28:24,395 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:28:41,012 - INFO - 127.0.0.1 - - [23/Aug/2025 23:28:41] "GET / HTTP/1.1" 200 -
+2025-08-23 23:28:41,713 - ERROR - 404 error: Page not found.
+2025-08-23 23:28:41,738 - INFO - 127.0.0.1 - - [23/Aug/2025 23:28:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-23 23:29:44,530 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-23 23:29:44,714 - INFO -  * Restarting with stat
+2025-08-23 23:29:45,189 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-23 23:29:45,280 - INFO -  * Restarting with stat
+2025-08-23 23:32:48,546 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 23:32:48,547 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 23:32:48,550 - INFO -  * Restarting with stat
+2025-08-23 23:32:49,445 - WARNING -  * Debugger is active!
+2025-08-23 23:32:49,463 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:36:07,100 - INFO -  * Detected change in 'C:\\swasi\\library management\\library_system_updated.py', reloading
+2025-08-23 23:36:07,237 - INFO -  * Restarting with stat
+2025-08-23 23:36:08,240 - WARNING -  * Debugger is active!
+2025-08-23 23:36:08,252 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:37:03,061 - INFO -  * Detected change in 'C:\\swasi\\library management\\library_system_updated.py', reloading
+2025-08-23 23:37:03,241 - INFO -  * Restarting with stat
+2025-08-23 23:37:04,207 - WARNING -  * Debugger is active!
+2025-08-23 23:37:04,225 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:37:10,369 - INFO -  * Detected change in 'C:\\swasi\\library management\\library_system_updated.py', reloading
+2025-08-23 23:37:10,533 - INFO -  * Restarting with stat
+2025-08-23 23:37:11,842 - WARNING -  * Debugger is active!
+2025-08-23 23:37:11,860 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:37:16,950 - INFO -  * Detected change in 'C:\\swasi\\library management\\library_system_updated.py', reloading
+2025-08-23 23:37:17,079 - INFO -  * Restarting with stat
+2025-08-23 23:37:18,050 - WARNING -  * Debugger is active!
+2025-08-23 23:37:18,058 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:40:01,125 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 23:40:01,126 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 23:40:01,128 - INFO -  * Restarting with stat
+2025-08-23 23:40:02,042 - WARNING -  * Debugger is active!
+2025-08-23 23:40:02,054 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:41:43,926 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 23:41:43,926 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 23:41:43,928 - INFO -  * Restarting with stat
+2025-08-23 23:41:44,994 - WARNING -  * Debugger is active!
+2025-08-23 23:41:45,019 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:43:01,409 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:01] "GET / HTTP/1.1" 200 -
+2025-08-23 23:43:02,427 - ERROR - 404 error: Page not found.
+2025-08-23 23:43:02,489 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:02] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-23 23:43:09,497 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:09] "GET / HTTP/1.1" 200 -
+2025-08-23 23:43:10,641 - ERROR - 404 error: Page not found.
+2025-08-23 23:43:10,674 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-23 23:43:15,954 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:15] "GET /borrow_book HTTP/1.1" 200 -
+2025-08-23 23:43:16,193 - ERROR - 404 error: Page not found.
+2025-08-23 23:43:16,217 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:16] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-23 23:43:26,817 - INFO - Transactions loaded: 7
+2025-08-23 23:43:26,817 - INFO - Transaction ID: f65990c2, Member ID: 3, Book ID: 2
+2025-08-23 23:43:26,818 - INFO - Transaction ID: a1b2c3d4, Member ID: 7, Book ID: 1
+2025-08-23 23:43:26,818 - INFO - Transaction ID: e5f6g7h8, Member ID: 8, Book ID: 3
+2025-08-23 23:43:26,818 - INFO - Transaction ID: i9j0k1l2, Member ID: 9, Book ID: 4
+2025-08-23 23:43:26,819 - INFO - Transaction ID: m3n4o5p6, Member ID: 10, Book ID: 5
+2025-08-23 23:43:26,819 - INFO - Transaction ID: q7r8s9t0, Member ID: 11, Book ID: 6
+2025-08-23 23:43:26,819 - INFO - Transaction ID: u1v2w3x4, Member ID: 12, Book ID: 2
+2025-08-23 23:43:26,856 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:26] "GET /transactions HTTP/1.1" 200 -
+2025-08-23 23:43:27,377 - ERROR - 404 error: Page not found.
+2025-08-23 23:43:27,450 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-23 23:43:38,883 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:38] "GET /books HTTP/1.1" 200 -
+2025-08-23 23:43:39,286 - ERROR - 404 error: Page not found.
+2025-08-23 23:43:39,332 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-23 23:43:49,473 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:49] "GET /members HTTP/1.1" 200 -
+2025-08-23 23:43:49,883 - ERROR - 404 error: Page not found.
+2025-08-23 23:43:49,932 - INFO - 127.0.0.1 - - [23/Aug/2025 23:43:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-08-23 23:43:59,722 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-23 23:43:59,910 - INFO -  * Restarting with stat
+2025-08-23 23:44:00,194 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-23 23:44:00,289 - INFO -  * Restarting with stat
+2025-08-23 23:44:00,765 - INFO - Loading data from JSON file.
+2025-08-23 23:44:00,806 - WARNING -  * Debugger is active!
+2025-08-23 23:44:00,819 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:44:00,933 - INFO - Loading data from JSON file.
+2025-08-23 23:44:00,968 - WARNING -  * Debugger is active!
+2025-08-23 23:44:00,978 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:44:38,823 - INFO - Loading data from JSON file.
+2025-08-23 23:44:38,900 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 23:44:38,900 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 23:44:38,904 - INFO -  * Restarting with stat
+2025-08-23 23:44:39,652 - INFO - Loading data from JSON file.
+2025-08-23 23:44:39,695 - WARNING -  * Debugger is active!
+2025-08-23 23:44:39,707 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:45:32,176 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-23 23:45:32,182 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-23 23:45:32,329 - INFO -  * Restarting with stat
+2025-08-23 23:45:32,331 - INFO -  * Restarting with stat

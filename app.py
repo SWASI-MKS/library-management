@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template, request, jsonify, redirect, url_for
 import json
 import os
@@ -81,8 +82,16 @@ class Member:
         member.membership_date = datetime.fromisoformat(data['membership_date'])
         member.is_active = data['is_active']
         member.annual_membership_fee = data.get('annual_membership_fee', 50.0)
-        member.membership_expiry_date = datetime.fromisoformat(data['membership_expiry_date'])
-        member.last_fee_payment_date = datetime.fromisoformat(data['last_fee_payment_date'])
+        
+        if 'membership_expiry_date' in data:
+            member.membership_expiry_date = datetime.fromisoformat(data['membership_expiry_date'])
+        else:
+            member.membership_expiry_date = datetime.now() + timedelta(days=365)  # Default to one year from now
+        
+        if 'last_fee_payment_date' in data:
+            member.last_fee_payment_date = datetime.fromisoformat(data['last_fee_payment_date'])
+        else:
+            member.last_fee_payment_date = datetime.now()  # Default to current time
         return member
 
 class Transaction:
@@ -144,6 +153,7 @@ class LibraryManagementSystem:
         if os.path.exists(self.data_file):
             try:
                 with open(self.data_file, 'r') as f:
+                    logging.info("Loading data from JSON file.")
                     data = json.load(f)
                 
                 self.books = {k: Book.from_dict(v) for k, v in data['books'].items()}

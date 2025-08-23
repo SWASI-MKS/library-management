@@ -55,7 +55,7 @@
                                 <tr>
                                     <td>{{ member.member_id }}</td>
                                     <td>{{ member.name }}</td>
-                                    <td>${{ "%.2f"|format(member.annual_membership_fee) }}</td>
+<td>₹{{ "%.2f"|format(member.annual_membership_fee) }}</td>
                                     <td>{{ member.last_fee_payment_date.strftime('%Y-%m-%d') }}</td>
                                     <td>{{ member.membership_expiry_date.strftime('%Y-%m-%d') }}</td>
                                     <td>
@@ -87,7 +87,7 @@
                         <p><strong>Total Members:</strong> {{ total_members }}</p>
                         <p><strong>Active Members:</strong> {{ active_members }}</p>
                         <p><strong>Expired Members:</strong> {{ expired_members }}</p>
-                        <p><strong>Total Annual Revenue:</strong> ${{ total_revenue }}</p>
+<p><strong>Total Annual Revenue:</strong> ₹{{ total_revenue }}</p>
                     </div>
                 </div>
             </div>

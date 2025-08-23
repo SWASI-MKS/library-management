@@ -45,7 +45,7 @@
                                         <span class="text-warning">Not returned</span>
                                     {% endif %}
                                 </td>
-                                <td>${{ "%.2f"|format(transaction.fine) }}</td>
+<td>₹{{ "%.2f"|format(transaction.fine) }}</td>
                                 <td>
                                     {% if transaction.return_date %}
                                         <span class="badge bg-success">Returned</span>

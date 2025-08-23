@@ -7,6 +7,74 @@ import os
 from datetime import datetime, timedelta
 import uuid
 
+class Book:
+    """Represents a book in the library"""
+    def __init__(self, book_id, title, author, isbn, genre, total_copies):
+        self.book_id = book_id
+        self.title = title
+        self.author = author
+        self.isbn = isbn
+        self.genre = genre
+        self.total_copies = total_copies
+        self.available_copies = total_copies
+        self.is_available = True
+    
+    def to_dict(self):
+        return {
+            'book_id': self.book_id,
+            'title': self.title,
+            'author': self.author,
+            'isbn': self.isbn,
+            'genre': self.genre,
+            'total_copies': self.total_copies,
+            'available_copies': self.available_copies,
+            'is_available': self.is_available
+        }
+    
+    @classmethod
+    def from_dict(cls, data):
+        book = cls(
+            data['book_id'], data['title'], data['author'],
+            data['isbn'], data['genre'], data['total_copies']
+        )
+        book.available_copies = data['available_copies']
+        book.is_available = data['is_available']
+        return book
+
+class Transaction:
+    """Represents a borrowing transaction"""
+    def __init__(self, transaction_id, member_id, book_id, borrow_date, due_date):
+        self.transaction_id = transaction_id
+        self.member_id = member_id
+        self.book_id = book_id
+        self.borrow_date = borrow_date
+        self.due_date = due_date
+        self.return_date = None
+        self.fine = 0.0
+    
+    def to_dict(self):
+        return {
+            'transaction_id': self.transaction_id,
+            'member_id': self.member_id,
+            'book_id': self.book_id,
+            'borrow_date': self.borrow_date.isoformat(),
+            'due_date': self.due_date.isoformat(),
+            'return_date': self.return_date.isoformat() if self.return_date else None,
+            'fine': self.fine
+        }
+    
+    @classmethod
+    def from_dict(cls, data):
+        transaction = cls(
+            data['transaction_id'], data['member_id'], data['book_id'],
+            datetime.fromisoformat(data['borrow_date']),
+            datetime.fromisoformat(data['due_date'])
+        )
+        if data['return_date']:
+            transaction.return_date = datetime.fromisoformat(data['return_date'])
+        transaction.fine = data['fine']
+        return transaction
+
 class Member:
     """Updated Member class with annual membership fee"""
     def __init__(self, member_id, name, email, phone):
@@ -55,7 +123,7 @@ class LibraryManagementSystem:
         self.books = {}
         self.members = {}
         self.transactions = {}
-        self.data_file = 'library_data.json'
+        self.data_file = 'library_data_updated.json'
         self.load_data()
     
     def save_data(self):

@@ -281,7 +281,7 @@ class LibraryManagementSystem:
         # Calculate fine if overdue
         if transaction.return_date > transaction.due_date:
             overdue_days = (transaction.return_date - transaction.due_date).days
-            transaction.fine = overdue_days * 1.0  # $1 per day
+            transaction.fine = overdue_days * 1.0  # ₹1 per day
         
         book = self.books[transaction.book_id]
         book.available_copies += 1
@@ -434,7 +434,7 @@ class LibraryInterface:
         print(f"Due Date: {transaction.due_date.strftime('%Y-%m-%d')}")
         if transaction.return_date:
             print(f"Return Date: {transaction.return_date.strftime('%Y-%m-%d')}")
-            print(f"Fine: ${transaction.fine:.2f}")
+            print(f"Fine: ₹{transaction.fine:.2f}")
         else:
             print(f"Status: {Fore.RED}Not Returned{Style.RESET_ALL}")
         print("-" * 50 + Style.RESET_ALL)
@@ -450,7 +450,7 @@ class LibraryInterface:
         print(f"Books Currently Borrowed: {stats['borrowed_books']}")
         print(f"Books Available: {stats['available_books']}")
         print(f"Overdue Transactions: {stats['overdue_transactions']}")
-        print(f"Total Fines Collected: ${stats['total_fines']:.2f}{Style.RESET_ALL}")
+        print(f"Total Fines Collected: ₹{stats['total_fines']:.2f}{Style.RESET_ALL}")
         
         if stats['top_borrowers']:
             print(f"\n{Fore.YELLOW}Top 5 Borrowers:")
@@ -529,7 +529,7 @@ class LibraryInterface:
         
         if success:
             if fine > 0:
-                print(Fore.YELLOW + f"\nBook returned successfully! Fine due: ${fine:.2f}" + Style.RESET_ALL)
+                print(Fore.YELLOW + f"\nBook returned successfully! Fine due: ₹{fine:.2f}" + Style.RESET_ALL)
             else:
                 print(Fore.GREEN + "\nBook returned successfully! No fine due." + Style.RESET_ALL)
         else:
