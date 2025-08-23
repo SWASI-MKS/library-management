@@ -792,3 +792,154 @@
 2025-08-23 23:45:32,182 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
 2025-08-23 23:45:32,329 - INFO -  * Restarting with stat
 2025-08-23 23:45:32,331 - INFO -  * Restarting with stat
+2025-08-23 23:45:33,075 - INFO - Loading data from JSON file.
+2025-08-23 23:45:33,079 - INFO - Loading data from JSON file.
+2025-08-23 23:45:33,121 - WARNING -  * Debugger is active!
+2025-08-23 23:45:33,129 - WARNING -  * Debugger is active!
+2025-08-23 23:45:33,141 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:45:33,148 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:45:48,375 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-23 23:45:48,376 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-23 23:45:48,554 - INFO -  * Restarting with stat
+2025-08-23 23:45:48,592 - INFO -  * Restarting with stat
+2025-08-23 23:48:35,177 - INFO - Loading data from JSON file.
+2025-08-23 23:48:35,177 - INFO - Successfully loaded member 1: John Doe
+2025-08-23 23:48:35,177 - INFO - Successfully loaded member 2: Jane Smith
+2025-08-23 23:48:35,177 - INFO - Successfully loaded member 3: Alice Johnson
+2025-08-23 23:48:35,177 - INFO - Successfully loaded member 4: Bob Brown
+2025-08-23 23:48:35,178 - INFO - Successfully loaded member 5: Charlie Green
+2025-08-23 23:48:35,178 - INFO - Successfully loaded member 6: Diana Prince
+2025-08-23 23:48:35,178 - INFO - Successfully loaded member 7: Rajesh Kumar Sharma
+2025-08-23 23:48:35,178 - INFO - Successfully loaded member 8: Priya Patel
+2025-08-23 23:48:35,178 - INFO - Successfully loaded member 9: Vikram Singh
+2025-08-23 23:48:35,178 - INFO - Successfully loaded member 10: Anjali Mehta
+2025-08-23 23:48:35,178 - INFO - Successfully loaded member 11: Arjun Reddy
+2025-08-23 23:48:35,178 - INFO - Successfully loaded member 12: Neha Gupta
+2025-08-23 23:48:35,178 - INFO - Successfully loaded member 78fa96ea: Swasi 
+2025-08-23 23:48:35,178 - INFO - Data loaded successfully
+2025-08-23 23:48:35,281 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 23:48:35,282 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 23:48:35,285 - INFO -  * Restarting with stat
+2025-08-23 23:48:36,443 - INFO - Loading data from JSON file.
+2025-08-23 23:48:36,444 - INFO - Successfully loaded member 1: John Doe
+2025-08-23 23:48:36,444 - INFO - Successfully loaded member 2: Jane Smith
+2025-08-23 23:48:36,445 - INFO - Successfully loaded member 3: Alice Johnson
+2025-08-23 23:48:36,445 - INFO - Successfully loaded member 4: Bob Brown
+2025-08-23 23:48:36,445 - INFO - Successfully loaded member 5: Charlie Green
+2025-08-23 23:48:36,445 - INFO - Successfully loaded member 6: Diana Prince
+2025-08-23 23:48:36,445 - INFO - Successfully loaded member 7: Rajesh Kumar Sharma
+2025-08-23 23:48:36,446 - INFO - Successfully loaded member 8: Priya Patel
+2025-08-23 23:48:36,446 - INFO - Successfully loaded member 9: Vikram Singh
+2025-08-23 23:48:36,446 - INFO - Successfully loaded member 10: Anjali Mehta
+2025-08-23 23:48:36,446 - INFO - Successfully loaded member 11: Arjun Reddy
+2025-08-23 23:48:36,446 - INFO - Successfully loaded member 12: Neha Gupta
+2025-08-23 23:48:36,447 - INFO - Successfully loaded member 78fa96ea: Swasi 
+2025-08-23 23:48:36,447 - INFO - Data loaded successfully
+2025-08-23 23:48:36,518 - WARNING -  * Debugger is active!
+2025-08-23 23:48:36,537 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:49:15,000 - INFO -  * Detected change in 'C:\\swasi\\library management\\app.py', reloading
+2025-08-23 23:49:15,117 - INFO -  * Restarting with stat
+2025-08-23 23:50:20,680 - INFO -  * Restarting with stat
+2025-08-23 23:50:41,068 - INFO - Loading data from JSON file.
+2025-08-23 23:50:41,069 - INFO - Successfully loaded member 1: John Doe
+2025-08-23 23:50:41,069 - INFO - Successfully loaded member 2: Jane Smith
+2025-08-23 23:50:41,069 - INFO - Successfully loaded member 3: Alice Johnson
+2025-08-23 23:50:41,069 - INFO - Successfully loaded member 4: Bob Brown
+2025-08-23 23:50:41,070 - INFO - Successfully loaded member 5: Charlie Green
+2025-08-23 23:50:41,070 - INFO - Successfully loaded member 6: Diana Prince
+2025-08-23 23:50:41,070 - INFO - Successfully loaded member 7: Rajesh Kumar Sharma
+2025-08-23 23:50:41,070 - INFO - Successfully loaded member 8: Priya Patel
+2025-08-23 23:50:41,070 - INFO - Successfully loaded member 9: Vikram Singh
+2025-08-23 23:50:41,070 - INFO - Successfully loaded member 10: Anjali Mehta
+2025-08-23 23:50:41,070 - INFO - Successfully loaded member 11: Arjun Reddy
+2025-08-23 23:50:41,070 - INFO - Successfully loaded member 12: Neha Gupta
+2025-08-23 23:50:41,071 - INFO - Successfully loaded member 78fa96ea: Swasi 
+2025-08-23 23:50:41,071 - INFO - Data loaded successfully
+2025-08-23 23:50:41,139 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 23:50:41,139 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 23:50:41,141 - INFO -  * Restarting with stat
+2025-08-23 23:50:42,000 - INFO - Loading data from JSON file.
+2025-08-23 23:50:42,000 - INFO - Successfully loaded member 1: John Doe
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 2: Jane Smith
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 3: Alice Johnson
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 4: Bob Brown
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 5: Charlie Green
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 6: Diana Prince
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 7: Rajesh Kumar Sharma
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 8: Priya Patel
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 9: Vikram Singh
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 10: Anjali Mehta
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 11: Arjun Reddy
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 12: Neha Gupta
+2025-08-23 23:50:42,001 - INFO - Successfully loaded member 78fa96ea: Swasi 
+2025-08-23 23:50:42,002 - INFO - Data loaded successfully
+2025-08-23 23:50:42,061 - WARNING -  * Debugger is active!
+2025-08-23 23:50:42,073 - INFO -  * Debugger PIN: 810-520-567
+2025-08-23 23:51:12,323 - INFO - Loading data from JSON file.
+2025-08-23 23:51:12,323 - INFO - Successfully loaded member 1: John Doe
+2025-08-23 23:51:12,323 - INFO - Successfully loaded member 2: Jane Smith
+2025-08-23 23:51:12,323 - INFO - Successfully loaded member 3: Alice Johnson
+2025-08-23 23:51:12,323 - INFO - Successfully loaded member 4: Bob Brown
+2025-08-23 23:51:12,324 - INFO - Successfully loaded member 5: Charlie Green
+2025-08-23 23:51:12,324 - INFO - Successfully loaded member 6: Diana Prince
+2025-08-23 23:51:12,324 - INFO - Successfully loaded member 7: Rajesh Kumar Sharma
+2025-08-23 23:51:12,324 - INFO - Successfully loaded member 8: Priya Patel
+2025-08-23 23:51:12,324 - INFO - Successfully loaded member 9: Vikram Singh
+2025-08-23 23:51:12,324 - INFO - Successfully loaded member 10: Anjali Mehta
+2025-08-23 23:51:12,324 - INFO - Successfully loaded member 11: Arjun Reddy
+2025-08-23 23:51:12,324 - INFO - Successfully loaded member 12: Neha Gupta
+2025-08-23 23:51:12,324 - INFO - Successfully loaded member 78fa96ea: Swasi 
+2025-08-23 23:51:12,324 - INFO - Data loaded successfully
+2025-08-23 23:51:32,989 - INFO - Loading data from JSON file.
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 1: John Doe
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 2: Jane Smith
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 3: Alice Johnson
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 4: Bob Brown
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 5: Charlie Green
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 6: Diana Prince
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 7: Rajesh Kumar Sharma
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 8: Priya Patel
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 9: Vikram Singh
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 10: Anjali Mehta
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 11: Arjun Reddy
+2025-08-23 23:51:32,990 - INFO - Successfully loaded member 12: Neha Gupta
+2025-08-23 23:51:32,991 - INFO - Successfully loaded member 78fa96ea: Swasi 
+2025-08-23 23:51:32,991 - INFO - Data loaded successfully
+2025-08-23 23:51:48,213 - INFO - Loading data from JSON file.
+2025-08-23 23:51:48,213 - INFO - Successfully loaded member 1: John Doe
+2025-08-23 23:51:48,213 - INFO - Successfully loaded member 2: Jane Smith
+2025-08-23 23:51:48,213 - INFO - Successfully loaded member 3: Alice Johnson
+2025-08-23 23:51:48,213 - INFO - Successfully loaded member 4: Bob Brown
+2025-08-23 23:51:48,213 - INFO - Successfully loaded member 5: Charlie Green
+2025-08-23 23:51:48,214 - INFO - Successfully loaded member 6: Diana Prince
+2025-08-23 23:51:48,214 - INFO - Successfully loaded member 7: Rajesh Kumar Sharma
+2025-08-23 23:51:48,214 - INFO - Successfully loaded member 8: Priya Patel
+2025-08-23 23:51:48,214 - INFO - Successfully loaded member 9: Vikram Singh
+2025-08-23 23:51:48,214 - INFO - Successfully loaded member 10: Anjali Mehta
+2025-08-23 23:51:48,214 - INFO - Successfully loaded member 11: Arjun Reddy
+2025-08-23 23:51:48,214 - INFO - Successfully loaded member 12: Neha Gupta
+2025-08-23 23:51:48,214 - INFO - Successfully loaded member 78fa96ea: Swasi 
+2025-08-23 23:51:48,214 - INFO - Data loaded successfully
+2025-08-23 23:51:48,278 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 23:51:48,278 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 23:51:48,280 - INFO -  * Restarting with stat
+2025-08-23 23:51:48,727 - INFO - Loading data from JSON file.
+2025-08-23 23:51:48,728 - INFO - Successfully loaded member 1: John Doe
+2025-08-23 23:51:48,728 - INFO - Successfully loaded member 2: Jane Smith
+2025-08-23 23:51:48,728 - INFO - Successfully loaded member 3: Alice Johnson
+2025-08-23 23:51:48,728 - INFO - Successfully loaded member 4: Bob Brown
+2025-08-23 23:51:48,728 - INFO - Successfully loaded member 5: Charlie Green
+2025-08-23 23:51:48,728 - INFO - Successfully loaded member 6: Diana Prince
+2025-08-23 23:51:48,728 - INFO - Successfully loaded member 7: Rajesh Kumar Sharma
+2025-08-23 23:51:48,728 - INFO - Successfully loaded member 8: Priya Patel
+2025-08-23 23:51:48,728 - INFO - Successfully loaded member 9: Vikram Singh
+2025-08-23 23:51:48,728 - INFO - Successfully loaded member 10: Anjali Mehta
+2025-08-23 23:51:48,729 - INFO - Successfully loaded member 11: Arjun Reddy
+2025-08-23 23:51:48,729 - INFO - Successfully loaded member 12: Neha Gupta
+2025-08-23 23:51:48,729 - INFO - Successfully loaded member 78fa96ea: Swasi 
+2025-08-23 23:51:48,729 - INFO - Data loaded successfully
+2025-08-23 23:51:48,755 - WARNING -  * Debugger is active!
+2025-08-23 23:51:48,764 - INFO -  * Debugger PIN: 810-520-567

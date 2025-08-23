@@ -156,9 +156,33 @@ class LibraryManagementSystem:
                     logging.info("Loading data from JSON file.")
                     data = json.load(f)
                 
-                self.books = {k: Book.from_dict(v) for k, v in data['books'].items()}
-                self.members = {k: Member.from_dict(v) for k, v in data['members'].items()}
-                self.transactions = {k: Transaction.from_dict(v) for k, v in data['transactions'].items()}
+                # Load books
+                self.books = {}
+                for book_id, book_data in data['books'].items():
+                    try:
+                        self.books[book_id] = Book.from_dict(book_data)
+                    except Exception as e:
+                        logging.error(f"Error loading book {book_id}: {e}")
+                
+                # Load members with detailed error handling
+                self.members = {}
+                for member_id, member_data in data['members'].items():
+                    try:
+                        self.members[member_id] = Member.from_dict(member_data)
+                        logging.info(f"Successfully loaded member {member_id}: {member_data['name']}")
+                    except Exception as e:
+                        logging.error(f"Error loading member {member_id}: {e}")
+                        logging.error(f"Member data: {member_data}")
+                
+                # Load transactions
+                self.transactions = {}
+                for transaction_id, transaction_data in data['transactions'].items():
+                    try:
+                        self.transactions[transaction_id] = Transaction.from_dict(transaction_data)
+                    except Exception as e:
+                        logging.error(f"Error loading transaction {transaction_id}: {e}")
+                
+                logging.info("Data loaded successfully")
             except Exception as e:
                 logging.error(f"Error loading data: {e}")
 

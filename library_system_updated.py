@@ -112,8 +112,8 @@ class Member:
         member.membership_date = datetime.fromisoformat(data['membership_date'])
         member.is_active = data['is_active']
         member.annual_membership_fee = data.get('annual_membership_fee', 50.0)
-        member.membership_expiry_date = datetime.fromisoformat(data['membership_expiry_date'])
-        member.last_fee_payment_date = datetime.fromisoformat(data['last_fee_payment_date'])
+        member.membership_expiry_date = datetime.fromisoformat(data.get('membership_expiry_date', datetime.now().isoformat()))
+        member.last_fee_payment_date = datetime.fromisoformat(data.get('last_fee_payment_date', datetime.now().isoformat()))
         return member
 
 class LibraryManagementSystem:
